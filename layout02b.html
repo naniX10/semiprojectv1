@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang = "ko">
+
+    <head>
+         <meta charset = "utf-8">
+         <title>shopping</title>
+         <style>
+             body { margin: 0; padding: 0; }
+
+             a:link { text-decoration: none; color: black }
+             a:visited { text-decoration: none; color: black }
+             a:active { text-decoration: none; color: hotpink }
+             a:hover { text-decoration: none; color: hotpink }
+
+             ul { list-style: none; padding: 0; } /* css reset */
+
+             #wrap { width: 1150px; margin: 0 auto; border: 3px solid black;  }
+
+             header, main, footer, nav { /* border: 1px solid red*/ }
+
+             /* header 스타일 */
+             header { height: 100px; }
+             header h1 { background: #fffdcd; padding: 20px 50px;
+                 margin: 10px 10px 10px 20px; width: 75px; float:left; }
+             header p { float: left; margin-top: 65px; }
+             header ul { float: right; margin-right: 30px }
+             header ul li { float: left; padding: 3px; }
+
+             /* nav 스타일 */
+             nav { height: 35px; clear: both; background: #fffdcd; padding-left: 20px;
+                 padding-top: 5px; padding-bottom: 5px; }
+             nav input { border: 2px solid black; padding: 5px; width: 325px; }
+             nav select { padding: 7px; width: 150px; text-decoration: underline;
+                        font-size: 14px }
+             nav button { padding: 5px; width: 125px; background: #ACADB1;
+                 font-size: 14px; border-radius: 5px }
+
+             /* main-aside 스타일 */
+             aside { /*border: 1px solid red;*/ width: 300px; float: left; }
+             aside ul { margin: 10px 10px 10px 20px; border: 5px solid black; }
+             aside ul li { border-bottom: 1px solid black; padding: 7px 14px;
+                      font-weight: bold; font-size: 17.5px }
+             aside ul li:last-child { border-bottom: none; }
+
+             /* main-banner 스타일 */
+             #banner { border: 4px solid black; width: 800px; float: right; height: 275px;
+                     margin: 10px 25px 20px 0; }
+             #banner h3 { margin-top: 120px; text-align: center; }
+             #banner ul { margin-top: 75px; margin-left: 620px; }
+             #banner ul li { float: left; padding: 8px 12px; background: #fffdcd;
+                 margin-right: 10px; font-weight: bold; font-size: 17.5px }
+
+
+
+             /* main-prodlist 스타일 */
+             section:nth-child(2) { clear: both }
+             #prodlist h2 { margin-left: 25px;  }
+             #prodlist ul { height: 150px; margin: 50px 0 75px 65px; }
+             #prodlist ul li { float: left; margin-right: 55px; }
+             #prodlist div { width: 125px; height: 125px; background: #fffdcd;
+                           border-radius: 15px; }
+             #prodlist p { text-align: center }
+
+
+
+             /* footer 스타일 */
+             footer { clear: both; border-top: 2.5px solid black; height: 225px }
+             footer ul { float: left; margin-right: 90px; /*border: 1px solid blue;*/ }
+             footer ul:first-child { margin-left: 75px }
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div id = "wrap">
+            <header>
+                <h1><a href="#">로고</a></h1>
+                <p><a><u>Log in</u></a> or <a><u>Create Account</u></a></p>
+
+                <ul>
+                    <li><a>contact</a> |</li>
+                    <li><a>store locator</a> |</li>
+                    <li><a>support</a> |</li>
+                    <li><a>CART</a></li>
+                </ul>
+
+            </header>
+            <nav>
+                <input type="text">
+                <select>
+                    <option>Category</option>
+                    <option>cat</option>
+                    <option>dog</option>
+                </select>
+                <button type="button">SEARCH</button>
+            </nav>
+            <div id = "main">
+                 <section>
+                     <aside>
+                         <ul>
+                             <li><a>All Category</a></li>
+                             <li><a>Category1</a></li>
+                             <li><a>Category2</a></li>
+                             <li><a>Category3</a></li>
+                             <li><a>Category4</a></li>
+                             <li><a>Category5</a></li>
+                             <li><a>Category6</a></li>
+
+                         </ul>
+                     </aside>
+                     <div id="banner">
+                         <h3>[PROMOTIONAL IMAGES ROTATE HERE]</h3>
+                         <ul>
+                             <li>1</li>
+                             <li>2</li>
+                             <li>3</li>
+                             <li>4</li>
+                         </ul>
+                     </div>
+                </section>
+
+                <section>
+                    <div id = "prodlist">
+                        <h2>Today's Specials</h2>
+                        <ul>
+                            <li>
+                                <div></div>
+                                <p><a href="#">product1</a></p>
+                            </li>
+                            <li>
+                                <div></div>
+                                <p><a href="#">product2</a></p>
+                            </li>
+                            <li>
+                                <div></div>
+                                <p><a href="#">product3</a></p>
+                            </li>
+                            <li>
+                                <div></div>
+                                <p><a href="#">product4</a></p>
+                            </li>
+                            <li>
+                                <div></div>
+                                <p><a href="#">product5</a></p>
+                            </li>
+                            <li>
+                                <div></div>
+                                <p><a href="#">product6</a></p>
+                            </li>
+
+
+
+                        </ul>
+
+                    </div>
+                </section>
+
+
+                </div>
+
+
+            <footer>
+                <ul>
+                    <li><h3>About us</h3></li>
+                    <li><a>Company</a></li>
+                    <li><a>News</a></li>
+                    <li><a>Jobs</a></li>
+                    <li><a>Policies</a></li>
+                    <li><a>Contact</a></li>
+
+                </ul>
+
+                <ul>
+                    <li><h3>Social</h3></li>
+                    <li><a>Facebook</a></li>
+                    <li><a>Twitter</a></li>
+                    <li><a>Try our app</a></li>
+
+                </ul>
+
+                <ul>
+                    <li><h3>Service</h3></li>
+                    <li><a>FAQ</a></li>
+                    <li><a>Live support</a></li>
+                    <li><a>Site map</a></li>
+
+                </ul>
+
+            </footer>
+
+
+        </div>
+    </body>
+
+</html>
