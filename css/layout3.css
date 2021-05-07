@@ -1,0 +1,87 @@
+/* 레이아웃 */
+            #wrap { width: 1150px; margin: 0 auto; /*border: 1px solid red*/ }
+            header { height: 125px; /*border: 1px solid blue*/ }
+            header nav { height: 35px; /*border: 1px solid green*/ }
+            #main { margin: 40px 0; min-height: 800px; }
+            aside { width: 225px; /*border: 1px solid orange*/ }
+            #content { width: 900px; /*border: 1px solid violet*/ }
+
+            /*header*/
+            header { background: #9ACD32 }
+            header h1 { float: left; width: 250px; height: 125px; margin: 0; background: #800080; color: bisque }
+
+            header .qmenu { float: right; }
+            header .qmenu li { float: left; margin-right: 10px; margin-top: 7.5px }
+
+            header .search { float: left; margin: 27px 0 0 150px; }
+            header .search input { border: 5px solid #008000; height: 25px; width: 400px }
+            header .search button { width: 125px; height: 37.5px; background: #008000; font-weight: bold;
+                font-size: 18px; color: antiquewhite; border: 4px outset #008000 }
+
+            header nav { clear: both; background: black; color: wheat; }
+            header nav li { float: left; margin-left: 70px; margin-top: 8px; font-weight: bold; font-size: 17px; }
+
+
+            /*main*/
+            #main {  }
+            aside { float: left; background: yellow; }
+
+            .lgmenu { margin-top: 20px; }
+            .lgmenu li { float: left; font-size: 11px; padding: 9px 7.5px }
+
+            aside hr { clear: both; }
+
+            .atlogin li { float: left; padding: 7.5px 7.5px; }
+
+            .loginfrm {  margin-bottom: 225px }
+            .loginfrm li { float: left;  }
+            .loginfrm input { width: 125px; margin: 3px 7.5px; padding: 3px }
+            .loginfrm button { width: 65px; height: 60px; position: relative; top: -30px }
+
+            #notice { clear: both; background: #FBFF4C  }
+            #notice h3 { background: black; color: whitesmoke; padding: 5px 2.5px }
+            #notice li { height: 40px; background: url(/img/OIP1.jpg) no-repeat top left; padding-left: 20px;
+                margin-left: 5px; }
+            .ad { width: 210px; height: 300px; margin: 50px auto; border: 1px dashed black; background: #ADE0FF }
+
+            #content { float: right; background: orange }
+
+            /*환영!*/
+            #welcome { background: #CCFFCC; height: 425px; margin: -5px 10px 10px 10px }
+            #welcome h1 { padding: 10px; font-size: 75px; font-family: Garamond;  }
+            #welcome p { width: 650px; padding-left: 25px; line-height: 1.5 }
+
+            /*게시판-최신정보, 사용기*/
+            #board { width: 885px; /*border: 1px solid black;*/ margin: 10px 10px 10px 10px; height: 415px }
+            #newinfo { float: left; width: 430px; background: #FFFFFF; height: 415px }
+            #newinfo h3 { background: #666699; color: antiquewhite; padding: 7px 2px; margin: 0 }
+            #newinfo li { height: 37px; background: url(/img/dog.png) no-repeat 5px 0px; padding-left: 30px;
+                          margin-left: 10px }
+            #newinfo li:first-child { padding: 0; margin: 0; }
+            #newinfo li:nth-child(2) { margin-top: 20px; }
+
+            #used { float: right; width: 430px; background: #FFFFFF; height: 415px; }
+            #used h3 { background: #99CC00; color: antiquewhite; padding: 7px 2px; margin: 0 }
+            #used li { height: 37px; background: url(/img/dog.png) no-repeat 5px 0px; padding-left: 30px;
+                          margin-left: 10px }
+            #used li:first-child { padding: 0; margin: 0; }
+            #used li:nth-child(2) { margin-top: 20px; }
+
+            /*갤러리*/
+            #gallery { clear: both; width: 885px; height: 450px; background: #FFFFCC;
+                margin: 20px 10px 20px 10px  }
+            #gallery h3 { background: #990066; color: white; padding: 7px 2px; margin: 0; }
+            #gallery ul { margin-top: 25px }
+            #gallery li { float: left; padding-left: 30px }
+            #gallery div { width: 140px; height: 140px; border: 1px dashed black; background: white; }
+            #gallery p { text-align: center }
+
+            /*footer*/
+            footer { clear: both; background: green; height: 160px; }
+            footer .nav { background: navy; color: white; height: 35px; }
+            footer .nav li { float: left; padding-left: 75px; font-weight: bold; font-size: 18px;
+                        margin-top: 5px }
+            footer div { float: left; width: 250px; height: 125px; background: purple }
+            footer p { float: right; text-align: right; font-weight: bold; margin: 80px 10px 0 0; font-size: 17px }
+
+            /* 클래스는 . 쓰고? */
